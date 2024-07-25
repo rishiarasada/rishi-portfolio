@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PORTFOLIO</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    .education {
+      padding: 200px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+    
+    .edu-details {
+      margin-bottom: 40px;
+      font-size: 18px;
+      color: rgb(185, 137, 15);
+    }
+    
+    .edu-details h2 {
+      margin-bottom: 10px;
+      font-size: 30px;
+      color: rgb(114, 115, 179);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background-color: rgb(15, 28, 69);
+      font-family: 'poppins', sans-serif;
+      background-image: url('bg.jpg');
+      background-size: cover;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      height: 100px;
+      background-color: rgb(36, 33, 33);
+    }
+    
+    nav ul {
+      display: flex;
+      margin-top: 30px;
+      justify-content: center;
+    }
+    
+    nav ul li {
+      list-style: none;
+    }
+    
+    nav ul li a {
+      color: rgb(245, 182, 65);
+      margin: 0 25px;
+    }
+    
+    nav ul li a:hover {
+      color: rgb(138, 111, 61);
+    }
+    
+    .left {
+      margin-top: 20px;
+      font-size: 2rem;
+      color: rgb(65, 138, 82);
+    }
+    
+    ul img {
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+    }
+    
+    .P {
+      display: flex;
+      margin-left: 300px;
+    }
+    
+    section {
+      display: flex;
+      margin: 20px;
+      height: 700px;
+      justify-content: space-around;
+      padding-top: 100px;
+    }
+    
+    .leftsection {
+      padding-top: 200px;
+      align-items: center;
+      width: 500px;
+      height: 500px;
+      color: rgb(219, 180, 107);
+      font-size: 2.5rem;
+    }
+    
+    .oc {
+      color: rgb(185, 137, 15);
+    }
+    
+    .rightsection {
+      display: flex;S
+      width: 500px; 
+      height: 900px; 
+      padding-top: 100px;
+    }
+    
+    .Mem {
+      margin-right: 100px;
+    }
+    
+    #element {
+      color: rgb(255, 207, 117);
+    }
+    
+    fieldset {
+      margin: 200px;
+      margin-top: 300px;
+      margin-bottom: 300px;
+    }
+    
+    fieldset p {
+      color: rgb(223, 148, 9);
+      padding: 30px;
+      font-size: larger;
+    }
+    
+    h1 {
+      color: rgb(219, 44, 44);
+      text-align: center;
+    }
+    
+    h1:hover {
+      color: rgb(235, 181, 81);
+    }
+    
+    .resume {
+      display: flex;
+      padding: 200px;
+    }
+    
+    .skill-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .skill-logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 30px;
+    }
+    
+    .projects {
+      padding: 200px;
+      margin-top: 200px;
+      margin-bottom: 500px;
+    }
+    
+    ul {
+      list-style: none;
+      text-align: center;
+    }
+    
+    h3 {
+      color: rgb(238, 138, 24);
+    }
+    
+    h3:hover {
+      color: whitesmoke;
+    }
+    
+    h2 {
+      color: rgb(204, 231, 83);
+    }
+    
+    h2:hover {
+      color: rgb(4, 237, 245);
+    }
+    
+    .contact a img {
+      display: flex;
+      height: 40px;
+      width: 40px;
+    }
+    
+    .bottom {
+      display: flex;
+      margin-left: 40%;
+    }
+    
+    .icons {
+      margin-right: 10%;
+      margin-bottom: 500px;
+    }
+    
+    .address {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Rishi's portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#Ho">Home</a></li>
+          <li><a href="#Ab">About Me</a></li>
+          <li><a href="#Sk">Skills</a></li>
+          <li><a href="#Ed">Education</a></li>
+          <li><a href="#Co">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="Ho">
+      <section class="section">
+        <div class="leftsection">Hi i am <span class="oc">Rishi</span>
+          <div>I am Passionate <div><span id="element">Web Developer.</span></div>
+          </div>
+        </div>
+        <div class="rightsection"><img src="C:\Users\91939\OneDrive\Pictures\WhatsApp Image 2024-02-16 at 19.02.36_55060a5f.jpg" alt="" style="width: 300px; height: 300px;"></div> <!-- Adjusted width and height -->
+      </section>
+    </div>
+  </main>
+  <div id="Ab">
+    <fieldset>
+      <legend>
+        <h1> About Me:</h1>
+      </legend>
+      <p><b><i>My name is Rishi Arasada, and I am driven by a passion for practical application of my skills and interests. With a robust academic background and an insatiable curiosity, I approach every opportunity with enthusiasm and a readiness to learn. Armed with adept communication and problem-solving skills, I am poised to make tangible contributions towards achieving specific objectives. I am actively seeking avenues to immerse myself in hands-on experiences that allow me to create meaningful impact and foster personal growth.<br>
+          </i></b></p>
+    </fieldset>
+  </div>
+  <div id="Sk">
+    <div class="skills">
+      <h1>Skills</h1>
+      <div class="skill-icons">
+        <img class="skill-logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt="HTML Logo">
+        <img class="skill-logo" src="https://p1.hiclipart.com/preview/326/868/1022/css3-badge-blue-and-white-css-icon-png-clipart.jpg" alt="CSS Logo">
+        <img class="skill-logo" src="https://i.pinimg.com/564x/b4/de/20/b4de205cb6d4e7cad43c2971f780cfd9.jpg" alt="JavaScript Logo">
+        <img class="skill-logo" src="https://i.pinimg.com/736x/b9/f3/06/b9f3069375a94e44f01a1946aaeca93b.jpg" alt="C/C++ Logo">
+        <img class="skill-logo" src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="Python Logo">
+      </div>
+    </div>
+  </div>
+
+  <div id="Ed">
+    <div class="education">
+      <h1>Education</h1>
+      <div class="edu-details">
+        <h2>SRM-AP University</h2>
+        <p>BTech</p>
+        <p>Year: 2022 - Present</p>
+      </div>
+      <div class="edu-details">
+        <h2>Intermediate </h2>
+        <p>Ascent junior college</p>
+        <p>Stream: MPC</p>
+        <p>Year: 2020 - 2022</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="Co">
+    <div class="contact">
+      <h1>Contact Me</h1><br>
+      <div class="address">
+        <h2>Name : Rishi Arasada </h2><br>
+        <h2>Phone Number : 9392685601</h2><br>
+        <h2>Email : rishiarasada@gmail.com</h2><br>
+        <h2>Address : IOB royal appts,401,vijayawada</h2><br>
+      </div>
+     
+    </div>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Designer', 'Programmer', 'Student', 'Web Developer'],
+      typeSpeed: 100,
+    });
+  </script>
+</body>
+
+</html>
